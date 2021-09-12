@@ -1,10 +1,13 @@
 import React from "react";
+import SearchBar from "./Components/SearchBar/SearchBar";
 
 
-function App({baseUrl}) {
+function App() {
+
   return (
     <div className="App">
       <h1>oi</h1>
+      <SearchBar />
     </div>
   );
 }
